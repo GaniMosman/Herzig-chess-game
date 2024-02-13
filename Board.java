@@ -5,7 +5,7 @@ import javax.swing.*;
 public class Board extends JFrame // board is a view extends JFrame
 {
 	private static Board instance = new Board();
-	private boolean isOver; // is to check if the game is over
+	private boolean isOver; // is to check if the game is over.
     JButton[][] btn = new JButton[8][5]; // 2d array of Jbutton which shows the image of pieces.
     JLabel currentTurnLabel,numberOfTurn; // Label to show number of turns and player's turn
 	JMenuBar menuBar; // creating MenuBar
